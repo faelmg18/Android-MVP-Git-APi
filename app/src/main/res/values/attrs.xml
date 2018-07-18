@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomLinearLayoutRoundedBorder">
+        <attr name="colorCustom" format="color" />
+        <attr name="cornerRadius" format="float" />
+        <attr name="cornerRadiusLeftTop" format="float" />
+        <attr name="cornerRadiusLeftBottom" format="float" />
+        <attr name="cornerRadiusRightTop" format="float" />
+        <attr name="cornerRadiusRightBottom" format="float" />
+        <attr name="cornerBorderColor" format="color" />
+        <attr name="cornerBorderWidth" format="integer" />
+    </declare-styleable>
+</resources>

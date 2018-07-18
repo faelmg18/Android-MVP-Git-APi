@@ -1,0 +1,13 @@
+package mvp.android.com.br.androidmvppoc.mvp.view;
+
+import mvp.android.com.br.androidmvppoc.domain.Item;
+import mvp.android.com.br.androidmvppoc.mvp.base.BaseListViewImpl;
+import mvp.android.com.br.androidmvppoc.mvp.base.BaseViewImpl;
+
+public interface RepositoriesViewImpl extends BaseListViewImpl {
+    void updateListRecycler();
+
+    void updateItemRecycler(int posicao);
+
+    void onItemAdapterClick(Item item);
+}
